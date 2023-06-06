@@ -1,0 +1,19 @@
+{
+  "objects": [
+    {
+      "image": "dogone.jpg",
+      "label": "dog",
+      "objects": [
+        {
+          "class": "dogone",
+          "bbox": [
+            100,
+            200,
+            50,
+            80
+          ]
+        }
+      ]
+    }
+  ]
+}

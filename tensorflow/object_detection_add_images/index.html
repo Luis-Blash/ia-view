@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detección simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <p>Activa la camara</p>
+    <section id="demos" class="invisible">
+        <div id="liveView" class="camView">
+            <button id="webcamButton">Enable Webcam</button>
+            <video id="webcam" autoplay muted width="640" height="480"></video>
+        </div>
+    </section>
+    <!-- Load TensorFlow.js. This is required to use coco-ssd model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+    <!-- Load the coco-ssd model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"> </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
