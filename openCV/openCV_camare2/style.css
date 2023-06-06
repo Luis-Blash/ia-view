@@ -36,6 +36,12 @@ section {
   opacity: 0.2;
 }
 
+.invisible-display {
+ position: absolute;
+ z-index: -1;
+ opacity: 0;
+}
+
 .camView {
   position: relative;
   float: left;
