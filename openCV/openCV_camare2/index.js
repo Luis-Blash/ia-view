@@ -26,7 +26,7 @@ function enableCam(event) {
     .then((stream) => {
       video.srcObject = stream;
       //* comentar para ver camara
-      demosSection.classList.add('invisible-display')
+      // demosSection.classList.add('invisible-display')
     })
     .catch((error) => {
       console.error("Error al acceder a la cámara web:", error);
