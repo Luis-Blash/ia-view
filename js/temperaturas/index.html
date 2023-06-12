@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperaturas</title>
+</head>
+
+<body>
+    <h1>Grados</h1>
+    <label for="celsius">Grados Celsius: <span id="lbl-celsius">0</span></label>
+    <input type="range"  min="-200" max="200" id="celsius" oninput="cambiarCelsius();">
+    <div id="resultado">
+        0 grados celsius son 32 grados fahrenheit
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
