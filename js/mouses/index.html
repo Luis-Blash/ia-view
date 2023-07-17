@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="demos" class="invisible">
+        <div id="liveView" class="camView">
+            <button id="webcamButton">Enable Webcam</button>
+            <video id="webcam" autoplay muted width="640" height="480"></video>
+        </div>
+    </section>
+    <div>
+        <canvas id="canvasElement1" width="400" height="300"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.8.0/dist/tf.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

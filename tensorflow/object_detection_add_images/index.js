@@ -51,6 +51,21 @@ function predictWebcam() {
       liveView.removeChild(children[i]);
     }
     children.splice(0);
+
+    console.log(predictions);
+
+  //   [
+  //     {
+  //         "bbox": [
+  //             58.25258255004883,
+  //             18.038291931152344,
+  //             535.8966636657715,
+  //             459.05834197998047
+  //         ],
+  //         "class": "person",
+  //         "score": 0.8975179195404053
+  //     }
+  // ]
     
     // Now lets loop through predictions and draw them to the live view if
     // they have a high confidence score.

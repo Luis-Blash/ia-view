@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #image-preview {
+            max-width: 500px;
+            max-height: 500px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="file" id="image-input" accept="image/*">
+    <br>
+    <img id="image-preview" src="#" alt="Image Preview" style="width: 100px; height: 100px;">
+    <br>
+    <button id="detect-button">Detect Objects</button>
+    <br>
+    <canvas id="canvas"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.8.0"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
